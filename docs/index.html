@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>BlackGoat Work Station</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { height:100%; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background:#0d0d0f; color:#f5f5f5;
+    display:flex; align-items:center; justify-content:center;
+    min-height:100%; padding:24px; text-align:center;
+  }
+  .card {
+    max-width:460px; width:100%;
+    background:#151518; border:1px solid #24242a; border-radius:18px;
+    padding:44px 34px 38px;
+    box-shadow:0 18px 50px rgba(0,0,0,.55);
+  }
+  .brand { font-size:30px; font-weight:800; letter-spacing:.5px; }
+  .brand .b { color:#fff; }
+  .brand .g { color:#ff7a18; }
+  .sub { color:#8a8a92; font-size:14px; margin-top:6px; letter-spacing:.4px; text-transform:uppercase; }
+  .divider { height:1px; background:#24242a; margin:28px 0; }
+  .btn {
+    display:block; width:100%; text-decoration:none;
+    background:#ff7a18; color:#141414; font-size:18px; font-weight:700;
+    padding:17px 20px; border-radius:12px;
+    transition:background .15s ease, transform .05s ease;
+  }
+  .btn:hover { background:#ff8c38; }
+  .btn:active { transform:translateY(1px); }
+  .ver { color:#6b6b73; font-size:12px; margin-top:14px; }
+  .steps {
+    text-align:left; margin-top:30px; background:#101013;
+    border:1px solid #222228; border-radius:12px; padding:20px 22px;
+  }
+  .steps h2 { font-size:13px; color:#ff7a18; text-transform:uppercase; letter-spacing:.6px; margin-bottom:12px; }
+  .steps ol { margin:0; padding-left:20px; color:#c7c7cf; font-size:14px; line-height:1.7; }
+  .steps b { color:#fff; }
+  .note {
+    margin-top:16px; font-size:12.5px; color:#8a8a92; line-height:1.6;
+    background:#17130c; border:1px solid #3a2a13; border-radius:10px; padding:13px 15px;
+  }
+  .note b { color:#ffb066; }
+  .foot { margin-top:24px; font-size:12px; color:#5a5a62; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="brand"><span class="b">BLACK</span><span class="g">GOAT</span></div>
+    <div class="sub">Work Station</div>
+
+    <div class="divider"></div>
+
+    <a class="btn" href="https://github.com/rubenretro02/wsl-client/releases/latest/download/WorkStationLauncher.exe">
+      &#8681;&nbsp; Descargar
+    </a>
+    <div class="ver">Windows &middot; descarga segura</div>
+
+    <div class="steps">
+      <h2>Cómo abrir</h2>
+      <ol>
+        <li>Haz clic en <b>Descargar</b>.</li>
+        <li>Abre el archivo <b>WorkStationLauncher.exe</b>.</li>
+        <li>Si Windows muestra un aviso azul: <b>Más información</b> &rarr; <b>Ejecutar de todas formas</b>.</li>
+        <li>Inicia sesión con el usuario que te dio tu supervisor.</li>
+      </ol>
+      <div class="note">
+        <b>El aviso azul es normal.</b> La aplicación es segura, solo es nueva para Windows. Pasa una sola vez por PC.
+      </div>
+    </div>
+
+    <div class="foot">BlackGoat &middot; Soporte: tu supervisor</div>
+  </div>
+</body>
+</html>
